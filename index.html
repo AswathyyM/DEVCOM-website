@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IEEE Devcom</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script
+    </head>
+    <body>
+        <header id="header">
+                <div class="logo-container">
+                    <img 
+                    src="logo.png"
+                    
+alt="logo"
+                    id="logo-image"/>
+                    <span class="website-name">IEEE Devcom</span>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#events" class="nav-link">Events</a></li>
+                    </ul>
+                </nav>
+        </header>
+            <section id="home">
+                <img src="devcomIntroPic.png" alt="DevCom CEC" id="devcomIntroPic"></img>
+                <p>
+                    Welcome to Devcom CEC, the official developer community of the College of Engineering, Chengannur. We aim to empower students through peer-to-peer learning, technical workshops, and collaborative projects. Join us as we explore and innovate together.
+                </p>
+                <button onclick="showForm()" class="registration">Register Now</button>
+                <div id="registerForm" style="display: none;"">
+                    <h2>Registration Form</h2>
+                    <label for="name">Name </label>
+                    <input type="text" id ="name" required>
+                    <br><br>
+                    <label for="email">Email </label>
+                    <input type="email" id ="email" required>
+                    <br><br>
+                    <label for="phone">Phone Number  </label>
+                    <input type="tel" id ="phone" required>
+                    <br><br>
+                    <label for="class">Class </label>
+                    <input type="text" id ="class" required>
+                    <br><br>
+                    <button onclick="submitForm()">Submit</button>
+                </div>
+            </section>
+            <section id="about">
+                <h2>About</h2>
+                <p>
+                    Devcom CEC is a student-led initiative that encourages creativity and leadership through weekly sessions, workshops, and real-world projects. With a focus on software development, design, and more, we foster a sustainable, collaborative environment for growth and learning.
+                </p>
+            </section>
+            <section id="events">
+                <h2>Events</h2>
+                <div class="event"></div>
+                    <h3>Hall of Code</h3>
+                    <img src="hallOfCode.png" alt="Hall of Code Event" class="event-image">
+                    <p>
+                        The Hall of Code was the inaugural event for Devcom, centered around hands-on coding challenges and collaborative projects. It fostered teamwork and problem-solving skills, allowing participants to connect, share ideas, and gain practical experience. This successful event laid the groundwork for future structured sessions and workshops.
+                    </p>
+                </div>
+                <div class="event"></div>
+                    <h3>Weekly Meetings</h3>
+                    <img src="">
+                    <p>
+                        Devcom's Weekly Meetings have transitioned from biweekly sessions to create a consistent learning environment. Each meeting focuses on a specific topic, enabling participants to explore new technologies and concepts while collaborating on projects. These gatherings strengthen community ties and enhance the overall learning experience.
+                    </p>
+                </div>
+                <p>
+                    Stay updated with our upcoming events, including hackathons, workshops, coding challenges, and speaker sessions designed to enhance your technical skills and foster collaboration. Keep an eye on this space for exciting opportunities to learn and grow!
+                </p>
+                
+                <button onclick="contactUs()" class="contact-Us">Contact Us </button>
+            </section>
+            <footer>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/ieeecomputersociety/" target="_blank">Facebook</a>
+                    <a href="https://x.com/ComputerSociety" target="_blank">X</a>
+                    <a href="https://interface.computer.org/the-computer-society-college-of-engineering-chengannur-student-branch-chapter-c/" target="_blank">Google</a>
+                </div>
+                <p>&copy; 2024 IEEE Events</p>
+            </footer>
+        </header>
+    </body>
+</html>
