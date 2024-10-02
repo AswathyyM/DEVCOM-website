@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background: #dd6c37;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+}
+.website-name{
+    font-weight: bold;
+}
+#devcomIntroPic {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+.event-image{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.logo-container img {
+    width: 50px;
+}
+nav ul {
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+section#home {
+    background: #e9e4e4;
+    text-align: center;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #45a049;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.social-media a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.contact-Us{
+    display: block;
+    margin: 20px auto;
+}
+
